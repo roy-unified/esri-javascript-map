@@ -1,0 +1,58 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+.map {
+ /* position: absolute;
+  top: 56px;
+  right: 0;
+  bottom: 0;
+  left: 0;*/
+  width: auto;
+  height: 300px;
+}
+
+/* Display a loading indicator while the map is working */
+#loading {
+  margin: 0;
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  height: 25px;
+}
+
+/* Tweaks to the Level Selector buttons, to style them like standard Esri buttons */
+#ulLevelSelector {
+  list-style: none;
+  margin-left: -40px;
+}
+
+.liLevelSelector .active {
+  background-color: #727272;
+  color: #fff;
+}
+
+.liLevelSelector {
+  margin-bottom: -10px;
+}
+.btnLevelSelector {
+  border: none;
+}
+
+#btnSearch {
+  margin-left: 10px;
+}
+
+
+#jsondata{
+    width: 58%;
+    height: 34vh;
+}
